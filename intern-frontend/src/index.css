@@ -1,0 +1,30 @@
+/* Fix text size adjustment */
+html,
+:host {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Example for filters with prefixes */
+.example-filter {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+/* Backdrop filter with prefixes */
+.example-backdrop {
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+/* User select fix for Safari */
+.noselect {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Tailwind CSS imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
